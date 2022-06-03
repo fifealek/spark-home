@@ -1,0 +1,12 @@
+.idea/*
+*.iml
+*.ipr
+.project
+.classpath
+target/
+*.orig
+
+.DS_Store
+!.idea/codeStyleSettings.xml
+!.idea/runConfigurations
+!.idea/codeStyles

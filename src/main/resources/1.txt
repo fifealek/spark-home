@@ -1,0 +1,9 @@
+Dataframes can be constructed from a wide array of sources, such as files, databases,
+or custom data sources. The key concept of the dataframe is its API, which is available
+in Java, Python, Scala, and R. In Java, a dataframe is represented by a dataset of rows:
+Dataset<Row> .
+Storage can be in memory or on disk, based on Spark’s strategy at the moment, but
+it will use memory as much as it can.
+Dataframes include the schema in a form of StructType , which can be used for
+introspection. Dataframes also include a printSchema() method to more quickly
+debug your dataframes. Enough theory—let’s practice!
